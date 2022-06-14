@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="index-bis.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="flex-container">
+        <a href="index_bis.html">Google search</a>
+      </div>
+        <form class="container-fluid flex-column"action="https://www.google.com/search" method="GET" name="f">
+          <div class="container-fluid flex-nowrap row mb-4">
+            <label class="col-3"for="all">all these words:</label>
+            <input id="all" class="col-9"type="text" name="as_q">
+          </div>
+          <div class="container-fluid flex-nowrap row mb-4">
+            <label class="col-3" for="exact">this exact word or phrase:</label>
+            <input id="exact" class="col-9"type="text" name="as_epq">
+          </div>
+          <div class="container-fluid flex-nowrap row mb-4">
+            <label class="col-3"for="any">any of these words:</label>
+            <input id="any" class="col-9"type="text" name="as_oq">
+          </div>
+          <div class="container-fluid flex-nowrap row mb-4">
+            <label class="container-fluid flex-nowrap col-3"for="none">none of these words:</label>
+            <input id="none"class="col-9"type="text" name="as_eq">
+          </div>
+          <div class="container-fluid flex-nowrap row mb-4">
+            <label class="col-3"for="from">numbers ranging from:</label>
+            <input id="from"class="col-4"type="text" name="as_nlo">
+            <label class="col-1"for="to">to</label>
+            <input id="to" class="col-4"type="text" name="as_nhi">
+          </div>
+          <div class="container-fluid row justify-content-end">
+            <input class="row justify-content-end btn btn-primary"type="submit" value="Advanced-Search">
+          </div>
+        </form>
+    </body>
+</html>
