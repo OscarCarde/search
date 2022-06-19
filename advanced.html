@@ -7,31 +7,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-      <div class="flex-container">
-        <a href="index_bis.html">Google search</a>
-      </div>
+      <nav class="nav d-flex justify-content-end mb-3">
+        <a class="ms-auto nav-item nav-link text-dark" href="index.html">Google search</a>
+      </nav>
         <form class="container-fluid flex-column"action="https://www.google.com/search" method="GET" name="f">
           <div class="container-fluid flex-nowrap row mb-4">
             <label class="col-3"for="all">all these words:</label>
-            <input id="all" class="col-9"type="text" name="as_q">
+            <input id="all" class="col-4"type="text" name="as_q">
           </div>
           <div class="container-fluid flex-nowrap row mb-4">
             <label class="col-3" for="exact">this exact word or phrase:</label>
-            <input id="exact" class="col-9"type="text" name="as_epq">
+            <input id="exact" class="col-4"type="text" name="as_epq">
           </div>
           <div class="container-fluid flex-nowrap row mb-4">
             <label class="col-3"for="any">any of these words:</label>
-            <input id="any" class="col-9"type="text" name="as_oq">
+            <input id="any" class="col-4"type="text" name="as_oq">
           </div>
           <div class="container-fluid flex-nowrap row mb-4">
-            <label class="container-fluid flex-nowrap col-3"for="none">none of these words:</label>
-            <input id="none"class="col-9"type="text" name="as_eq">
+            <label class="col-3"for="none">none of these words:</label>
+            <input id="none"class="col-4"type="text" name="as_eq">
           </div>
           <div class="container-fluid flex-nowrap row mb-4">
             <label class="col-3"for="from">numbers ranging from:</label>
-            <input id="from"class="col-4"type="text" name="as_nlo">
+            <input id="from"class="col-2"type="text" name="as_nlo">
             <label class="col-1"for="to">to</label>
-            <input id="to" class="col-4"type="text" name="as_nhi">
+            <input id="to" class="col-2"type="text" name="as_nhi">
           </div>
           <div class="container-fluid row justify-content-end">
             <input class="row justify-content-end btn btn-primary"type="submit" value="Advanced-Search">
